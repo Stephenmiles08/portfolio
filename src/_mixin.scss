@@ -1,0 +1,31 @@
+@mixin drop_style {
+    top: 4.9%;
+    flex-direction: column;
+
+}
+
+@mixin service {
+    border: 1px solid rgba(0,0,0,.2);
+    margin: 10px 10px;
+}
+@mixin img {
+    width: 30%;
+        margin-top: 30px;
+}
+@mixin p {
+    margin:0 15px 40px 15px;
+        padding-top: 10px;
+        word-spacing: 2px;
+        font-weight: 700;
+        color: rgba(0,0,0,.5);
+        line-height: 1.6;
+}
+@mixin btn {
+        color: #744DE9;
+        text-decoration: none;
+        padding: 15px 2.8rem;
+        border: 1px solid #744DE9;
+        text-align: center;
+        margin: 1px auto;
+        font-weight: 700;
+}

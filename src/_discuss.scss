@@ -1,0 +1,45 @@
+#discuss{
+    background-color: #001D38;
+    width: 100%;
+    padding-bottom: 7rem;
+    .discuss_con{
+        width: 75%;
+        margin: 20px auto 0 auto;
+        color: #fff;
+        text-align: center;
+    }
+}
+.discuss_img{
+    padding-bottom: 7rem;
+    img{
+        // object-fit: cover;
+        width: 100%;
+
+    }
+}
+.discuss_text{
+    padding: 3rem 0;
+    .discuss_h{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    .discuss_p{
+        padding: 2rem 20rem;
+        line-height: 1.6;
+        color: rgba(255,255,255,.6);
+    }
+    .discuss_btn{
+        background-color: #744DE9;
+        text-decoration: none;
+        padding: 15px 2.8rem;
+        text-align: center;
+        margin: 1px auto;
+        font-weight: 700;
+        color: #fff;
+    }
+}
+.discuss_btn:hover{
+    background-color: #001D38;
+    border: 1px solid #744DE9;
+    color: #744DE9;
+}

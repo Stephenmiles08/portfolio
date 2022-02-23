@@ -1,0 +1,31 @@
+@import 'mixin';
+#about{
+    width: 100%;
+    .wid_image{
+        width: 68%;
+        margin: 0 auto;
+        .first_image{
+            margin-top: -15em;
+            display: flex;
+            justify-content: space-around;
+            padding-bottom: 1rem;
+        }
+        .second_image{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}
+.btn_container{
+    width: 100%;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    .btn{
+        @include btn
+    }
+}
+.btn:hover{
+    background-color: #744DE9;
+    color: #fff;
+}

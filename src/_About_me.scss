@@ -1,0 +1,60 @@
+@import 'mixin';
+#about_me{
+    width: 100%;
+    padding: 3rem 0 7rem 0;
+    .ab_container{
+        width: 75%;
+        margin: 0 auto;
+        position: relative;
+        .faded_text{
+            font-size: 13rem;
+            position: absolute;
+            top: -25%;
+            z-index: -1;
+            color: rgba(0,0,0,.05);
+            font-weight: 800;
+            left: 18%;
+        }
+        .wrapper{
+            display: flex;
+        }
+    }
+}
+.about_text{
+    margin: auto 10px;
+    padding: 0 1rem 0 6rem;
+    .about_h{
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    .about_p{
+        font-size: 1rem;
+        font-weight: 600;
+        color: rgba(0,0,0,.5);
+        line-height: 1.7;
+        padding: 1rem 0 2rem 0;
+    }
+}
+.about_image{
+    position: relative;
+    .image1{
+        position: absolute;
+        z-index: -1;
+        top: -20%;
+        right: -30%;
+    }
+}
+.about_btn{
+        background-color: #744DE9;
+        text-decoration: none;
+        padding: 15px 2.8rem;
+        text-align: center;
+        margin: 1px auto;
+        font-weight: 700;
+        color: #fff;
+}
+.about_btn:hover{
+    background-color: #fff;
+    border: 1px solid #744DE9;
+    color: #744DE9;
+}

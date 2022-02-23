@@ -1,0 +1,27 @@
+#wid{
+    background-color: #001D38;
+    width: 100%;
+    color: #fff;
+    padding: 5rem 0 15rem 0;
+    .wid_wrapper{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .wid_text{
+        text-align: center;
+        // padding: 10rem 0 0 0;
+        h6{
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 3px;
+            padding: 2rem 0 1.6rem 0;
+        }
+        .wid_h{
+            font-size: 3.7rem;
+            font-family:$second_font;
+            padding: 2rem 0;
+            width: 65%;
+            margin: 0 auto;
+        }
+    }
+}
